@@ -1,0 +1,288 @@
+
+html {
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
+}
+
+
+div {
+  background: url("../social.png");
+}
+
+.facebook {
+  width: 84px;
+  height: 84px;
+  background-position: 0px 84px;
+}
+
+.facebook:hover {
+  cursor: pointer;
+  background-position: 0px 0px;
+}
+
+.dotdot {
+  width: 84px;
+  height: 84px;
+  background-position: -84px 84px;
+}
+
+.dotdot:hover {
+  cursor: pointer;
+  background-position: -84px 0px;
+}
+.circle {
+  width: 84px;
+  height: 84px;
+  background-position: -168px 84px;
+}
+
+.circle:hover {
+  cursor: pointer;
+  background-position: -168px 0px;
+}
+.googleplus {
+  width: 84px;
+  height: 84px;
+  background-position: -252px 84px;
+}
+
+.googleplus:hover {
+  cursor: pointer;
+  background-position: -252px 0px;
+}
+.linkedin {
+  width: 84px;
+  height: 84px;
+  background-position: -336px 84px;
+}
+
+.linkedin:hover {
+  cursor: pointer;
+  background-position: -336px 0px;
+}
+.pinterest {
+  width: 84px;
+  height: 84px;
+  background-position: -420px 84px;
+}
+
+.pinterest:hover {
+  cursor: pointer;
+  background-position: -420px 0px;
+}
+.wifi {
+  width: 84px;
+  height: 84px;
+  background-position: -504px 84px;
+}
+
+.wifi:hover {
+  cursor: pointer;
+  background-position: -504px 0px;
+}
+.skype {
+  width: 84px;
+  height: 84px;
+  background-position: -588px 84px;
+}
+
+.skype:hover {
+  cursor: pointer;
+  background-position: -588px 0px;
+}
+.twitter {
+  width: 84px;
+  height: 84px;
+  background-position: -672px 84px;
+}
+
+.twitter:hover {
+  cursor: pointer;
+  background-position: -672px 0px;
+}
+.vimeo {
+  width: 84px;
+  height: 84px;
+  background-position: -756px 84px;
+}
+
+.vimeo:hover {
+  cursor: pointer;
+  background-position: -756px 0px;
+}
+
+.youtube {
+  width: 84px;
+  height: 84px;
+  background-position: -840px 84px;
+}
+
+.youtube:hover {
+  cursor: pointer;
+  background-position: -840px 0px;
+}
+
+body {
+  display: inline-flex;
+}
+
+::-moz-selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+::selection {
+  background: #b3d4fc;
+  text-shadow: none;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
+}
+
+audio,
+canvas,
+iframe,
+img,
+svg,
+video {
+  vertical-align: middle;
+}
+
+
+fieldset {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+
+textarea {
+  resize: vertical;
+}
+
+
+.hidden,
+[hidden] {
+  display: none !important;
+}
+
+
+.sr-only {
+  border: 0;
+  clip: rect(0, 0, 0, 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  white-space: nowrap;
+  width: 1px;
+  /* 1 */
+}
+
+.sr-only.focusable:active,
+.sr-only.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  white-space: inherit;
+  width: auto;
+}
+
+
+.invisible {
+  visibility: hidden;
+}
+
+.clearfix::before,
+.clearfix::after {
+  content: " ";
+  display: table;
+}
+
+.clearfix::after {
+  clear: both;
+}
+
+
+@media only screen and (min-width: 35em) {
+
+}
+
+@media print,
+  (-webkit-min-device-pixel-ratio: 1.25),
+  (min-resolution: 1.25dppx),
+  (min-resolution: 120dpi) {
+
+}
+
+@media print {
+  *,
+  *::before,
+  *::after {
+    background: #fff !important;
+    color: #000 !important;
+    /* Black prints faster */
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
+
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
+
+  a[href]::after {
+    content: " (" attr(href) ")";
+  }
+
+  abbr[title]::after {
+    content: " (" attr(title) ")";
+  }
+
+  a[href^="#"]::after,
+  a[href^="javascript:"]::after {
+    content: "";
+  }
+
+  pre {
+    white-space: pre-wrap !important;
+  }
+
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
+
+  thead {
+    display: table-header-group;
+  }
+
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
+
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
+
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
+}
+
